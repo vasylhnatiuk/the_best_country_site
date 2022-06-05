@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Додавання статті
+{% endblock %}
+
+{% block  body %}
+<div class="container">
+    <h1>Додавання статті</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="text" name="title" id="title" class="form-control" placeholder="Введіть назву"><br>
+        <textarea name="intro" id="intro" class="form-control" placeholder="Введіть текст"></textarea><br>
+        <input type="submit" class="btn btn-success" value="Надіслати"><br>
+        <input type="file" name="image" id="image" class="form-control">
+    </form>
+</div>
+{% endblock %}
