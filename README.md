@@ -3,7 +3,7 @@
 The site where you can add your article about the country.
 
 # Check it out!
-Taxi service deployed to Heroku(https://the-best-country-site.herokuapp.com)
+The Best Country Site deployed to Heroku(https://the-best-country-site.herokuapp.com)
 
 # Installation
 Python 3 must be already installed
