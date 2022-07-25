@@ -7,7 +7,7 @@ The Best Country Site deployed to Heroku(https://the-best-country-site.herokuapp
 
 # Installation
 Python 3 must be already installed
-
+```shell
 git clone https://github.com/vasylhnatiuk/the_best_country_site
 
 cd the_best_country_site
@@ -19,7 +19,7 @@ venv/scripts/activate
 pip install -r requirements.txt
 
 python manage.py runserver 
-
+```
 # Features
 You can add article and picture
 
