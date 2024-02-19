@@ -18,7 +18,7 @@ venv/scripts/activate
 
 pip install -r requirements.txt
 
-python manage.py runserver 
+flask run
 ```
 # Features
 You can add article and picture
